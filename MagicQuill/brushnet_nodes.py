@@ -952,7 +952,7 @@ def add_brushnet_patch(model, brushnet, torch_dtype, conditioning_latents,
     is_SDXL = isinstance(model.model.model_config, comfy.supported_models.SDXL)
 
     if is_SDXL:
-        input_blocks = [[0, comfy.ops.disable_weight_init.Conv2d],
+        input_blocks = [[0, comfy.ops.manual_cast.Conv2d],
                         [1, comfy.ldm.modules.diffusionmodules.openaimodel.ResBlock],
                         [2, comfy.ldm.modules.diffusionmodules.openaimodel.ResBlock],
                         [3, comfy.ldm.modules.diffusionmodules.openaimodel.Downsample],
@@ -974,7 +974,7 @@ def add_brushnet_patch(model, brushnet, torch_dtype, conditioning_latents,
                         [7, comfy.ldm.modules.diffusionmodules.openaimodel.ResBlock],
                         [8, comfy.ldm.modules.diffusionmodules.openaimodel.ResBlock]]
     else:
-        input_blocks = [[0, comfy.ops.disable_weight_init.Conv2d],
+        input_blocks = [[0, comfy.ops.manual_cast.Conv2d],
                         [1, comfy.ldm.modules.attention.SpatialTransformer],
                         [2, comfy.ldm.modules.attention.SpatialTransformer],
                         [3, comfy.ldm.modules.diffusionmodules.openaimodel.Downsample],
