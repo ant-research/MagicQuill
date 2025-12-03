@@ -3,8 +3,7 @@
 <a href="https://arxiv.org/abs/2411.09703"><img src="https://img.shields.io/badge/arXiv-2411.09703-b31b1b.svg"></a>
 <a href="https://huggingface.co/spaces/AI4Editing/MagicQuill"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)"></a>
 <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg"></a>
-
-
+<a href="https://magicquill.art/v2/"><img src="https://img.shields.io/static/v1?label=Project&message=MagicQuillV2&color=red"></a>
 
 https://github.com/user-attachments/assets/8ee9663a-fef2-484a-a0b7-8427ab590424
 
@@ -28,6 +27,8 @@ There is an HD video on [Youtube](https://www.youtube.com/watch?v=5DiKfONMnE4).
   - [Acknowledgement](#acknowledgement)
   - [Note](#note)
 
+## [MagicQuillV2](https://magicquill.art/v2/) has been released!!! Check it out ;)
+
 ## TODO List
 
 - [x] Release the paper and demo page. Visit [magicquill.art](https://magicquill.art) 🪩
@@ -46,6 +47,7 @@ There is an HD video on [Youtube](https://www.youtube.com/watch?v=5DiKfONMnE4).
 - [2024.12.16] 🎉 Exciting News: MagicQuill is also available at [Modelscope](https://modelscope.cn/studios/ant-research/MagicQuill_demo). Thanks for their amazing support and infrastructure.
 - [2025.01.02] 🎉 Exciting News: MagicQuill docker container is now available. You can now build & run your own image in a cleaner, isolated environment. Thanks [gbudge](https://github.com/gbudge) for his contribution.
 - [2025.02.27] 🎉 Exciting News: MagicQuill has been accepted to CVPR 2025! Looking forward to meeting everyone in Tennessee!
+- [2025.12.03] 🎉 Exciting News: [MagicQuillV2](https://magicquill.art/v2/) has been released! Check it out ;), give us a [star](https://github.com/zliucz/MagicQuillV2) if you are interested.
 
 To update the latest features, pull the latest code and re-install the gradio_magicquill:
 ```
